@@ -25,6 +25,11 @@
 
     form.addEventListener("submit", (event) => {
         event.preventDefault()
+        if (name.value === ""){
+            alert("Este campo esta vacio")
+            return
+        }
+        fetch("")
     
     })
 </script>
