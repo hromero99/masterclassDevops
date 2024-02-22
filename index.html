@@ -23,8 +23,8 @@
     const form = document.getElementById("contactForm")
     const name = document.getElementByName("name")
     
-    form.addEventListener("submit", () => {
-        
+    form.addEventListener("submit", (event) => {
+        event.preventDefault()
     })
 </script>
 </html>
